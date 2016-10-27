@@ -1,0 +1,14 @@
+URxvt*scrollWithBuffer: True
+URxvt*scrollTtyOutput: False
+URxvt*background: Black
+URxvt*foreground: Gray
+URxvt*scrollTtyKeypress: True
+URxvt*font: xft:MiscFixedSC613:style=Regular:pixelsize=12:antialias=false
+URxvt*boldFont: 
+URxvt.letterSpace: 1
+URxvt*fading: 30
+URxvt*color12: #1874CD
+URxvt*termName: xterm
+URxvt*saveLines: 100000
+URxvt*scrollBar: false
+URxvt.buffered: false
