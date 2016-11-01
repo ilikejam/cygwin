@@ -1,0 +1,16 @@
+#!/bin/bash
+
+opts=()
+while [[ $1 ]]
+do
+    case "$1" in
+        '-font')
+            shift; shift;
+            ;;
+        *)
+            opts+=("$1")
+            shift
+            ;;
+    esac
+done
+urxvt "${opts[@]}"
